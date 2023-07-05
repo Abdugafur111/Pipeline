@@ -17,9 +17,10 @@ pipeline{
     
         stage("Checkout from SCM"){
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/Abdugafur111/SpringBootJenkinsPipeline'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/Abdugafur111/Pipeline'
             }
 
         }
 
+}
 }
